@@ -10,6 +10,10 @@ Create symbolic link
 
 	$ ln -s ~/.vim/vimrc ~/.vimrc
 	
+Install bundles using vundle
+
+	$ vim -u bundles.vim +BundleInstall +q
+
 Compile Command-T
 
 	$ .cd ~/.vim/ruby/command-t 
