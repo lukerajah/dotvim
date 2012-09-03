@@ -13,7 +13,10 @@ call vundle#rc()
  Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
  Bundle '2072/PHP-Indenting-for-VIm'
  Bundle 'nanotech/jellybeans.vim'
-
+ Bundle 'tpope/vim-surround'
+ Bundle 'wincent/Command-T'
+ Bundle 'msanders/snipmate.vim'
+ Bundle 'scrooloose/snipmate-snippets'
 filetype plugin indent on     " required!
  "
  " Brief help

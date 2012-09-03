@@ -10,3 +10,9 @@ Create symbolic links
 
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/gvimrc ~/.gvimrc
+
+Compile Command-T
+
+cd ~/.vim/ruby/command-t 
+ruby extconf.rb 
+make 
