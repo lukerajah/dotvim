@@ -20,6 +20,6 @@ Install bundles using vundle
 
 Compile Command-T
 
-	$ cd ~/.vim/ruby/command-t 
+	$ cd ~/.vim/bundle/Command-T/ruby/command-t 
 	$ ruby extconf.rb 
 	$ make
