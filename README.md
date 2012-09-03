@@ -2,18 +2,16 @@ Installation:
 
 	$ git clone git://github.com/lukerajah/dotvim.git ~/.vim
 
-Move files into .vim folder
- 
-	$ mv .vimrc ~/.vim/vimrc
-	$ mv .gvimrc ~/.vim/gvimrc
+ Delete vimrc from home directory
 
-Create symbolic links
+	$ rm ~/.vimrc 
+
+Create symbolic link
 
 	$ ln -s ~/.vim/vimrc ~/.vimrc
-	$ ln -s ~/.vim/gvimrc ~/.gvimrc
-
+	
 Compile Command-T
 
 	$ .cd ~/.vim/ruby/command-t 
 	$ ruby extconf.rb 
-	$ make 
+	$ make
