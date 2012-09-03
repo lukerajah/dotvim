@@ -10,9 +10,13 @@ Create symbolic link
 
 	$ ln -s ~/.vim/vimrc ~/.vimrc
 	
+Install vundle
+
+	$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+	
 Install bundles using vundle
 
-	$ vim -u bundles.vim +BundleInstall +q
+	$ vim -u ~/.vim/bundles.vim +BundleInstall +q
 
 Compile Command-T
 
